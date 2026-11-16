@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1680" width="1200" height="1680" role="img" aria-labelledby="t d">
+  <title id="t">Cuidados después del reemplazo de cadera</title>
+  <desc id="d">Infografía con nueve cuidados postoperatorios del reemplazo de cadera y las señales de alarma.</desc>
+  <style>
+    .card { fill: #ffffff; stroke: #d8e6e3; stroke-width: 2; }
+    .ln { fill: none; stroke: #0f766e; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+    .thick { fill: none; stroke: #0f766e; stroke-width: 20; stroke-linecap: round; }
+    .no { fill: none; stroke: #dc2626; stroke-width: 6; stroke-linecap: round; }
+    .h { font: 700 21px Helvetica, Arial, sans-serif; fill: #0f3d3a; text-anchor: middle; }
+    .b { font: 400 16px Helvetica, Arial, sans-serif; fill: #374151; text-anchor: middle; }
+    .num { font: 700 15px Helvetica, Arial, sans-serif; fill: #ffffff; text-anchor: middle; }
+    .al { font: 400 17px Helvetica, Arial, sans-serif; fill: #3f1d1d; }
+  </style>
+
+  <!-- Fondo -->
+  <rect width="1200" height="1680" fill="#f3f8f7"/>
+
+  <!-- Cabecera -->
+  <rect width="1200" height="200" fill="#0f766e"/>
+  <text x="60" y="95" style="font:700 44px Helvetica, Arial, sans-serif; fill:#ffffff">Cuidados después del</text>
+  <text x="60" y="148" style="font:700 44px Helvetica, Arial, sans-serif; fill:#ffffff">reemplazo de cadera</text>
+  <text x="60" y="182" style="font:400 19px Helvetica, Arial, sans-serif; fill:#c8ece6">Guía visual para las primeras semanas de recuperación</text>
+  <!-- Prótesis de cadera -->
+  <g transform="translate(1010 100)">
+    <path d="M-48 -30 A52 52 0 0 1 48 -30" fill="none" stroke="#c8ece6" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="0" cy="-18" r="30" fill="#ffffff"/>
+    <path d="M8 4 L30 30 L22 90 Q20 100 12 96 L4 40 L-10 14 Z" fill="#e6f4f1" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+
+  <!-- ===== Fila 1 ===== -->
+  <!-- 1. Máximo 90° -->
+  <g transform="translate(40 230)">
+    <rect class="card" width="360" height="330" rx="22"/>
+    <circle cx="34" cy="34" r="16" fill="#0f766e"/><text class="num" x="34" y="39">1</text>
+    <line class="ln" x1="135" y1="122" x2="205" y2="122"/>
+    <line class="ln" x1="138" y1="122" x2="138" y2="168"/>
+    <line class="ln" x1="202" y1="122" x2="202" y2="168"/>
+    <line class="ln" x1="138" y1="122" x2="138" y2="62"/>
+    <circle cx="162" cy="46" r="13" fill="#0f766e"/>
+    <line class="ln" x1="162" y1="62" x2="162" y2="114"/>
+    <line class="ln" x1="162" y1="114" x2="222" y2="114"/>
+    <line class="ln" x1="222" y1="114" x2="222" y2="162"/>
+    <line class="ln" x1="222" y1="162" x2="238" y2="162"/>
+    <polyline points="162,96 180,96 180,114" fill="none" stroke="#f59e0b" stroke-width="4"/>
+    <text x="190" y="90" style="font:700 20px Helvetica, Arial, sans-serif; fill:#b45309">90°</text>
+    <text class="h" x="180" y="215">Máximo 90° al doblar</text>
+    <text class="b" x="180" y="250">No te inclines hacia delante al</text>
+    <text class="b" x="180" y="274">sentarte ni te agaches a recoger</text>
+    <text class="b" x="180" y="298">cosas. Usa sillas altas y firmes.</text>
+  </g>
+
+  <!-- 2. No cruzar piernas -->
+  <g transform="translate(420 230)">
+    <rect class="card" width="360" height="330" rx="22"/>
+    <circle cx="34" cy="34" r="16" fill="#0f766e"/><text class="num" x="34" y="39">2</text>
+    <line class="thick" x1="156" y1="45" x2="204" y2="140"/>
+    <line class="thick" x1="204" y1="45" x2="156" y2="140" stroke="#14b8a6"/>
+    <ellipse cx="214" cy="150" rx="16" ry="9" fill="#0f766e"/>
+    <ellipse cx="146" cy="150" rx="16" ry="9" fill="#14b8a6"/>
+    <circle class="no" cx="180" cy="98" r="68"/>
+    <line class="no" x1="132" y1="50" x2="228" y2="146"/>
+    <text class="h" x="180" y="215">No cruces las piernas</text>
+    <text class="b" x="180" y="250">Ni sentado, ni de pie, ni</text>
+    <text class="b" x="180" y="274">acostado. Mantén las rodillas</text>
+    <text class="b" x="180" y="298">ligeramente separadas.</text>
+  </g>
+
+  <!-- 3. No girar la pierna -->
+  <g transform="translate(800 230)">
+    <rect class="card" width="360" height="330" rx="22"/>
+    <circle cx="34" cy="34" r="16" fill="#0f766e"/><text class="num" x="34" y="39">3</text>
+    <!-- pierna correcta -->
+    <line class="thick" x1="135" y1="40" x2="135" y2="135"/>
+    <path d="M125 135 H150 Q156 150 140 156 H128 Q120 150 125 135 Z" fill="#0f766e"/>
+    <path d="M118 175 l10 10 l20 -22" fill="none" stroke="#16a34a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- pierna girada -->
+    <line class="thick" x1="225" y1="40" x2="225" y2="128" stroke="#94a3b8"/>
+    <path d="M214 128 L236 128 L210 156 Q196 158 198 146 Z" fill="#94a3b8"/>
+    <path d="M250 112 Q262 150 222 168" fill="none" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+    <path d="M222 168 l14 -12 M222 168 l16 4" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+    <path d="M258 42 l22 22 M280 42 l-22 22" class="no"/>
+    <text class="h" x="180" y="215">No gires la pierna</text>
+    <text class="b" x="180" y="250">Mantén rodillas y pies</text>
+    <text class="b" x="180" y="274">apuntando hacia delante. Evita</text>
+    <text class="b" x="180" y="298">girar sobre la pierna operada.</text>
+  </g>
+
+  <!-- ===== Fila 2 ===== -->
+  <!-- 4. Almohada -->
+  <g transform="translate(40 580)">
+    <rect class="card" width="360" height="330" rx="22"/>
+    <circle cx="34" cy="34" r="16" fill="#0f766e"/><text class="num" x="34" y="39">4</text>
+    <rect x="60" y="138" width="240" height="22" rx="8" fill="#e6f4f1" stroke="#0f766e" stroke-width="3"/>
+    <circle cx="88" cy="108" r="15" fill="#0f766e"/>
+    <line class="ln" x1="106" y1="112" x2="196" y2="114" stroke-width="12"/>
+    <line class="ln" x1="196" y1="110" x2="282" y2="94" stroke-width="10"/>
+    <line class="ln" x1="196" y1="120" x2="282" y2="130" stroke-width="10"/>
+    <ellipse cx="246" cy="111" rx="30" ry="11" fill="#f59e0b"/>
+    <text class="h" x="180" y="215">Almohada entre las piernas</text>
+    <text class="b" x="180" y="250">Al dormir de lado mantiene la</text>
+    <text class="b" x="180" y="274">cadera alineada. Pregunta sobre</text>
+    <text class="b" x="180" y="298">qué lado puedes acostarte.</text>
+  </g>
+
+  <!-- 5. Andador -->
+  <g transform="translate(420 580)">
+    <rect class="card" width="360" height="330" rx="22"/>
+    <circle cx="34" cy="34" r="16" fill="#0f766e"/><text class="num" x="34" y="39">5</text>
+    <line class="ln" x1="128" y1="62" x2="232" y2="62" stroke-width="10"/>
+    <line class="ln" x1="140" y1="62" x2="128" y2="158"/>
+    <line class="ln" x1="220" y1="62" x2="232" y2="158"/>
+    <line class="ln" x1="135" y1="112" x2="226" y2="112"/>
+    <circle cx="128" cy="164" r="8" fill="#0f766e"/>
+    <circle cx="232" cy="164" r="8" fill="#0f766e"/>
+    <path d="M252 150 q8 -8 16 0 M270 132 q8 -8 16 0" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+    <text class="h" x="180" y="215">Usa andador o muletas</text>
+    <text class="b" x="180" y="250">El tiempo que te indique el</text>
+    <text class="b" x="180" y="274">equipo médico. Retira alfombras</text>
+    <text class="b" x="180" y="298">y cables para evitar caídas.</text>
+  </g>
+
+  <!-- 6. Asientos elevados -->
+  <g transform="translate(800 580)">
+    <rect class="card" width="360" height="330" rx="22"/>
+    <circle cx="34" cy="34" r="16" fill="#0f766e"/><text class="num" x="34" y="39">6</text>
+    <rect x="212" y="40" width="34" height="62" rx="6" fill="#e6f4f1" stroke="#0f766e" stroke-width="5"/>
+    <path d="M146 104 H246 V116 Q246 142 214 148 L208 168 H168 L172 144 Q146 134 146 116 Z" fill="#e6f4f1" stroke="#0f766e" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="140" y="86" width="104" height="16" rx="5" fill="#f59e0b"/>
+    <line x1="112" y1="160" x2="112" y2="86" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+    <path d="M100 100 L112 84 L124 100" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="h" x="180" y="215">Eleva los asientos</text>
+    <text class="b" x="180" y="250">Usa alzador de inodoro y sillas</text>
+    <text class="b" x="180" y="274">con reposabrazos para sentarte</text>
+    <text class="b" x="180" y="298">y levantarte con seguridad.</text>
+  </g>
+
+  <!-- ===== Fila 3 ===== -->
+  <!-- 7. Herida -->
+  <g transform="translate(40 930)">
+    <rect class="card" width="360" height="330" rx="22"/>
+    <circle cx="34" cy="34" r="16" fill="#0f766e"/><text class="num" x="34" y="39">7</text>
+    <g transform="translate(170 108) rotate(-30)">
+      <rect x="-70" y="-26" width="140" height="52" rx="26" fill="#fde7c8" stroke="#d97706" stroke-width="4"/>
+      <rect x="-24" y="-20" width="48" height="40" rx="6" fill="#ffffff" stroke="#d97706" stroke-width="3"/>
+      <circle cx="-48" cy="-8" r="3" fill="#d97706"/><circle cx="-48" cy="8" r="3" fill="#d97706"/>
+      <circle cx="48" cy="-8" r="3" fill="#d97706"/><circle cx="48" cy="8" r="3" fill="#d97706"/>
+    </g>
+    <path d="M262 46 Q276 66 276 76 A14 14 0 0 1 248 76 Q248 66 262 46 Z" fill="#7dd3fc"/>
+    <line class="no" x1="242" y1="48" x2="284" y2="92" stroke-width="5"/>
+    <text class="h" x="180" y="215">Cuida la herida</text>
+    <text class="b" x="180" y="250">Mantenla limpia y seca. No la</text>
+    <text class="b" x="180" y="274">mojes hasta que te lo autoricen</text>
+    <text class="b" x="180" y="298">ni apliques cremas por tu cuenta.</text>
+  </g>
+
+  <!-- 8. Hielo -->
+  <g transform="translate(420 930)">
+    <rect class="card" width="360" height="330" rx="22"/>
+    <circle cx="34" cy="34" r="16" fill="#0f766e"/><text class="num" x="34" y="39">8</text>
+    <rect x="118" y="52" width="124" height="104" rx="22" fill="#dbeafe" stroke="#3b82f6" stroke-width="5"/>
+    <g transform="translate(180 104)" stroke="#3b82f6" stroke-width="5" stroke-linecap="round">
+      <line x1="0" y1="-34" x2="0" y2="34"/>
+      <line x1="-29" y1="-17" x2="29" y2="17"/>
+      <line x1="-29" y1="17" x2="29" y2="-17"/>
+      <path d="M-8 -26 L0 -18 L8 -26 M-8 26 L0 18 L8 26" fill="none"/>
+    </g>
+    <rect x="236" y="40" width="70" height="30" rx="15" fill="#f59e0b"/>
+    <text x="271" y="61" style="font:700 15px Helvetica, Arial, sans-serif; fill:#ffffff; text-anchor:middle">15–20′</text>
+    <text class="h" x="180" y="215">Hielo para la inflamación</text>
+    <text class="b" x="180" y="250">15–20 minutos, varias veces al</text>
+    <text class="b" x="180" y="274">día, siempre envuelto en un</text>
+    <text class="b" x="180" y="298">paño, nunca directo en la piel.</text>
+  </g>
+
+  <!-- 9. Circulación -->
+  <g transform="translate(800 930)">
+    <rect class="card" width="360" height="330" rx="22"/>
+    <circle cx="34" cy="34" r="16" fill="#0f766e"/><text class="num" x="34" y="39">9</text>
+    <line class="thick" x1="80" y1="128" x2="196" y2="128" stroke-width="24"/>
+    <line class="thick" x1="200" y1="128" x2="214" y2="78" stroke-width="20"/>
+    <path d="M250 70 Q276 110 250 150" fill="none" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M238 74 L250 70 L252 83 M238 146 L250 150 L252 137" fill="none" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(112 64) rotate(-35)">
+      <rect x="-24" y="-11" width="48" height="22" rx="11" fill="#ffffff" stroke="#0f766e" stroke-width="3"/>
+      <path d="M0 -11 H13 A11 11 0 0 1 13 11 H0 Z" fill="#0f766e"/>
+    </g>
+    <text class="h" x="180" y="215">Activa la circulación</text>
+    <text class="b" x="180" y="250">Mueve los tobillos arriba y abajo.</text>
+    <text class="b" x="180" y="274">Toma el anticoagulante y usa las</text>
+    <text class="b" x="180" y="298">medias si te los indicaron.</text>
+  </g>
+
+  <!-- ===== Señales de alarma ===== -->
+  <g transform="translate(40 1290)">
+    <rect width="1120" height="290" rx="22" fill="#fef2f2" stroke="#dc2626" stroke-width="3"/>
+    <path d="M52 28 L80 76 H24 Z" fill="#dc2626" stroke="#dc2626" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="49" y="42" width="6" height="18" rx="3" fill="#ffffff"/>
+    <circle cx="52" cy="67" r="3.5" fill="#ffffff"/>
+    <text x="100" y="66" style="font:700 28px Helvetica, Arial, sans-serif; fill:#991b1b">Acude al médico o a urgencias si notas:</text>
+
+    <g class="al">
+      <circle cx="50" cy="124" r="6" fill="#dc2626"/>
+      <text class="al" x="68" y="130">Fiebre de más de 38 °C o escalofríos</text>
+      <circle cx="50" cy="174" r="6" fill="#dc2626"/>
+      <text class="al" x="68" y="180">Enrojecimiento, calor o supuración en la herida</text>
+      <circle cx="50" cy="224" r="6" fill="#dc2626"/>
+      <text class="al" x="68" y="230">Dolor o hinchazón en la pantorrilla</text>
+
+      <circle cx="590" cy="124" r="6" fill="#dc2626"/>
+      <text class="al" x="608" y="130">Falta de aire o dolor en el pecho (llama a emergencias)</text>
+      <circle cx="590" cy="174" r="6" fill="#dc2626"/>
+      <text class="al" x="608" y="180">Dolor intenso o pierna más corta o girada</text>
+      <circle cx="590" cy="224" r="6" fill="#dc2626"/>
+      <text class="al" x="608" y="230">Sangrado que no se detiene</text>
+    </g>
+  </g>
+
+  <!-- Pie -->
+  <text x="600" y="1625" style="font:400 16px Helvetica, Arial, sans-serif; fill:#6b7280; text-anchor:middle">Las precauciones varían según la técnica quirúrgica. Sigue siempre las indicaciones</text>
+  <text x="600" y="1650" style="font:400 16px Helvetica, Arial, sans-serif; fill:#6b7280; text-anchor:middle">de tu cirujano y de tu fisioterapeuta.</text>
+</svg>
